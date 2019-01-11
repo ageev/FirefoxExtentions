@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Cisco Umbrella log search by itsec.pro",
+    "description": "Will open Umbrella website logs related to selected domain. You need Umbrella Reporting API key to do that",
+    "version": "1.0",
+    "homepage_url": "https://github.com/ageev/FirefoxExtentions",
+
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "tabs"
+    ],
+
+    "browser_specific_settings": {
+        "gecko": {
+        "id": "root@itsec.pro",
+        "strict_min_version": "42.0"
+        }
+    }
+}
