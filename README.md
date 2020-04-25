@@ -17,3 +17,6 @@ d. set API key is addon settings: URL https://reports.api.umbrella.com/. Header:
 
 addon is super stupid. You need to carefully select only domain name, right click and select "search umbrella".
 So if you have URL like https://google.com/searchblablabla make sure that you have selected only "google.com"
+
+# Links
+your addons https://addons.mozilla.org/en-US/developers/addons
