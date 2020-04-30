@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "Check on VirusTotal",
+    "description": "Simple addon to open selected text directly on VirusTotal search tab via Right-Click context menu",
+    "version": "1.0",
+    "homepage_url": "https://github.com/ageev/FirefoxExtentions",
+
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+
+    "permissions": [
+        "activeTab",
+        "contextMenus",
+        "tabs"
+    ],
+
+    "browser_specific_settings": {
+        "gecko": {
+        "id": "root@itsec.pro",
+        "strict_min_version": "55"
+        }
+    }
+}
