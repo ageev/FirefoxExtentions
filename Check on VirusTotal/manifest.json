@@ -20,7 +20,7 @@
     "browser_specific_settings": {
         "gecko": {
         "id": "root@itsec.pro",
-        "strict_min_version": "55"
+        "strict_min_version": "55.0"
         }
     }
 }
