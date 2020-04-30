@@ -4,7 +4,7 @@ Repository with FF webextentions, developed to simplify daily routine
 ## Check on VirusTotal
 https://addons.mozilla.org/addon/check-on-virustotal/
 Small extention which opens VT search tab with details on selected text (hash).
-![Screenshot](Screenshot1.png)
+
 ![Screenshot](Screenshot2.png)
 ### How to use
 1. double click hash string
