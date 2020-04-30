@@ -1,6 +1,13 @@
 # FirefoxExtentions
 Repository with FF webextentions, developed to simplify daily routine
 
+## Check on VirusTotal
+Small extention which opens VT search tab with details on selected text (hash).
+### How to use
+1. double click hash string
+2. Right click -> "Check on VirusTotal"
+3. new tab should be opened at the ackground with search results
+
 ## Open-in-Umbrella
 this extension will add new option to FF context menu: "Search domain in Umbrella". Will simplify your daily routine with Cisco Umbrella tool
 ### How to install
