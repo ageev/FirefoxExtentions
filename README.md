@@ -5,11 +5,14 @@ Repository with FF webextentions, developed to simplify daily routine
 ZAM is kind of compilation of extenrions below. It allows you to add your own right-click selection menu, which will then send selected text to URL of your choise. 
 The idea here is to use it with Flask to automate things with Python backend. Stay tuned!
 
+![Screenshot](_screenshots/ZAM1.png)
+![Screenshot](_screenshots/ZAM2.png)
+
 ## Check on VirusTotal
 https://addons.mozilla.org/addon/check-on-virustotal/
 Small extention which opens VT search tab with details on selected text (hash).
 
-![Screenshot](Screenshot2.png)
+![Screenshot](_screenshots/VT1.png)
 ### How to use
 1. double click hash string
 2. Right click -> "Check on VirusTotal"
