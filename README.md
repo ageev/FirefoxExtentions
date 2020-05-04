@@ -3,7 +3,11 @@ Repository with FF webextentions, developed to simplify daily routine
 
 ## ZAM
 ZAM is kind of compilation of extenrions below. It allows you to add your own right-click selection menu, which will then send selected text to URL of your choise. 
-The idea here is to use it with Flask to automate things with Python backend. Stay tuned!
+The idea here is to use it with Flask to automate things with Python backend.
+
+URL = prefix + selection + postix
+
+You can set prefix & postfix in addon's options page. 
 
 ![Screenshot](_screenshots/ZAM1.PNG)
 ![Screenshot](_screenshots/ZAM2.PNG)
