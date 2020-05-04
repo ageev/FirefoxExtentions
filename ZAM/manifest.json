@@ -1,27 +1,33 @@
-# https://addons.mozilla.org/en-US/developers/addon/f56d0c42a0114239b559/versions
 {
     "manifest_version": 2,
     "name": "ZAM addon",
-    "description": "Will open ZAM portal and send data",
-    "version": "1.1",
+    "description": "ZAM automation tool",
+    "version": "1.3",
     "homepage_url": "https://github.com/ageev/FirefoxExtentions",
-
-    "background": {
-        "scripts": [
-            "background.js"
-        ]
+    "icons": {
+    "48": "icons/feather.svg"
     },
 
     "permissions": [
         "activeTab",
         "contextMenus",
-        "tabs"
+        "tabs",
+        "storage"
     ],
 
     "browser_specific_settings": {
         "gecko": {
-        "id": "root@itsec.pro",
-        "strict_min_version": "48.0"
+        "id": "zam@itsec.pro",
+        "strict_min_version": "55.0"
         }
+    },
+
+    "options_ui": {
+        "page": "options/options.html",
+        "browser_style": true
+    },
+    
+    "background": {
+        "scripts": ["storage.js", "background.js"]
     }
 }
