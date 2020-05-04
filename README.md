@@ -5,8 +5,8 @@ Repository with FF webextentions, developed to simplify daily routine
 ZAM is kind of compilation of extenrions below. It allows you to add your own right-click selection menu, which will then send selected text to URL of your choise. 
 The idea here is to use it with Flask to automate things with Python backend. Stay tuned!
 
-![Screenshot](_screenshots/ZAM1.png)
-![Screenshot](_screenshots/ZAM2.png)
+![Screenshot](_screenshots/ZAM1.PNG)
+![Screenshot](_screenshots/ZAM2.PNG)
 
 ## Check on VirusTotal
 https://addons.mozilla.org/addon/check-on-virustotal/
